@@ -77,17 +77,15 @@ header {
         padding: 10px;
         display: flex;
     }
-
-    .link a:hover {
-        border-color: hsl(300, 69%, 71%);
-    }
-
         .link img {
             width: 20px;
             height: 20px; 
             margin: 0;
             padding: 0;
             filter: brightness(0%) invert(100%);
+        }
+        .logo:hover {
+            filter: brightness(0) saturate(100%) invert(69%) sepia(64%) saturate(715%) hue-rotate(239deg) brightness(96%) contrast(90%);
         }
 
 
